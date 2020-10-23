@@ -1,0 +1,61 @@
+<ns0:DocumentSet LanguageCd="EN" xsi:schemaLocation="D:\Program Files (x86)\Kofax\CaptureSS\ServLib\Bin\Envelope.xsd" xmlns:ns0="http://docmgmt.aps.sdc.maximus.com/schema/Envelope" xmlns:ns1="http://docmgmt.aps.sdc.maximus.com/schema/DocumentData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns0:Ecn>202010210945</ns0:Ecn>
+    <ns0:ReceivedDate>2020-10-21</ns0:ReceivedDate>
+    <ns0:DocCount>1</ns0:DocCount>
+    <ns0:OperatorId>MAXCORP\143564</ns0:OperatorId>
+    <ns0:ScanStation>1QJDFX1:Sess 2</ns0:ScanStation>
+    <ns0:MediaCd>FAX</ns0:MediaCd>
+    <ns0:Priority>5</ns0:Priority>
+    <ns0:FlexFields>
+        <ns1:Name>Batch ID</ns1:Name>
+        <ns1:Value>1372</ns1:Value>
+        <ns1:Type>String</ns1:Type>
+    </ns0:FlexFields>
+    <ns0:FlexFields>
+        <ns1:Name>Batch Name</ns1:Name>
+        <ns1:Value>v1.1.1.9 - 10/21/2020 08:57:38 AM - QA</ns1:Value>
+        <ns1:Type>String</ns1:Type>
+    </ns0:FlexFields>
+    <ns0:Document LanguageCd="EN">
+        <ns1:Dcn>202010210945</ns1:Dcn>
+        <ns1:DocumentTypeCd>MedicalInformation</ns1:DocumentTypeCd>
+        <ns1:FormType>LCD</ns1:FormType>
+        <ns1:ScanDate>2020-10-21T00:00:00</ns1:ScanDate>
+        <ns1:PageCount>26</ns1:PageCount>
+        <ns1:RescanInd>false</ns1:RescanInd>
+        <ns1:MedicalInformationData>
+            <ns1:Individuals>
+                <ns1:FirstName>Ashish</ns1:FirstName>
+                <ns1:LastName>Shah</ns1:LastName>
+                <ns1:Ssn>102104041</ns1:Ssn>
+                <ns1:Dob>03/24/1955</ns1:Dob>
+                <ns1:PrimaryPersonInd>true</ns1:PrimaryPersonInd>
+                <ns1:HohInd>true</ns1:HohInd>
+                <ns1:PersonId>1</ns1:PersonId>
+            </ns1:Individuals>
+        </ns1:MedicalInformationData>
+        <ns1:FlexFields>
+            <ns1:GroupId>1</ns1:GroupId>
+            <ns1:Name>LCD_LEVEL_OF_CARE</ns1:Name>
+            <ns1:Value>ICF_ORC</ns1:Value>
+            <ns1:Type>String</ns1:Type>
+        </ns1:FlexFields>
+        <ns1:FlexFields>
+            <ns1:GroupId>1</ns1:GroupId>
+            <ns1:Name>LCD_LENGTH_OF_CARE</ns1:Name>
+            <ns1:Value>SHORT_TERM_LT_180</ns1:Value>
+            <ns1:Type>String</ns1:Type>
+        </ns1:FlexFields>
+        <ns1:FlexFields>
+            <ns1:GroupId>1</ns1:GroupId>
+            <ns1:Name>LCD_SIGNATURE_DATE</ns1:Name>
+            <ns1:Value>07/23/2019</ns1:Value>
+            <ns1:Type>String</ns1:Type>
+        </ns1:FlexFields>
+        <ns1:FlexFields>
+            <ns1:Name>KofaxDCN</ns1:Name>
+            <ns1:Value>1372001002</ns1:Value>
+            <ns1:Type>String</ns1:Type>
+        </ns1:FlexFields>
+    </ns0:Document>
+</ns0:DocumentSet>
